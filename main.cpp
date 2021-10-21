@@ -3,11 +3,12 @@
 #include "bubbleSort.cpp"
 #include "selectionSort.cpp"
 #include "insertionSort.cpp"
+#include "mergeSort.cpp"
 
 using namespace std;
 
 int main(){
-    double vet[5], x;
+    float vet[5], x;
 
     for(int i=0; i<5; i++){
         cin >> x;
@@ -17,7 +18,8 @@ int main(){
     //bubbleSort(vet, 5);
     //quickSort(vet, 0, 4);
     //selectionSort(vet, 5);
-    insertionSort(vet, 5);
+    //insertionSort(vet, 5);
+    mergeSort(vet, 0, 5);
 
     for(auto i: vet){
         cout << i << " ";
