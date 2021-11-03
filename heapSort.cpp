@@ -2,7 +2,7 @@
 
 template <class x>
 void criaHeap(x *vetor, int i, int f){
-    int aux = vetor[i];
+    x aux = vetor[i];
     int j = i*2+1;
     while(j<=f){
         if(j<f){
